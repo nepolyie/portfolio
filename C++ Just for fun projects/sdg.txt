@@ -1,0 +1,75 @@
+<script>
+	let o = "o s t 🧀"
+	let s = "s a l a t 🥬"
+	let e = "e p l e 🍎"
+</script>
+<style>
+	.o {
+		font-size: 50px;
+		color: black;
+		display: block;
+		text-align: center;
+		background-color: #ffd300;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 10px;
+		font-family: fantasy;
+		border: 5px solid #ffd300;
+		transition: ease-in-out .6s;
+	}
+	.o:hover {
+		color: gold;
+		text-decoration: none;
+		background-color: white;
+		border: 5px solid gold;
+	}	
+	.s {
+		font-size: 50px;
+		color: black;
+		display: block;
+		text-align: center;
+		background-color: #68da00;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 10px;
+		font-family: fantasy;
+		border: 5px solid #68da00;
+		transition: ease-in-out .6s;
+	}
+	.s:hover {
+		color: #68da00;
+		text-decoration: none;
+		background-color: white;
+		border: 5px solid #68da00;
+	}	
+	.e {
+		font-size: 50px;
+		color: black;
+		display: block;
+		text-align: center;
+		background-color: red;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 10px;
+		font-family: fantasy;
+		border: 5px solid red;
+		transition: ease-in-out .6s;
+	}
+	.e:hover {
+		color: red;
+		text-decoration: none;
+		background-color: white;
+		border: 5px solid red;
+	}
+	
+</style>
+
+	<a class="o" href="https://ost.no">{o}</a>
+<h1>
+	
+</h1>
+		<a class="s" href="https://salat.no">{s}</a>
+<h1>
+	
+</h1>
+		<a class="e" href="https://eple.no">{e}</a>
