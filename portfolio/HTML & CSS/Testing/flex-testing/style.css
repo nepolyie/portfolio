@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 10px;
+}
+.card {
+    padding: 10px;
+    background-color: #1d1d1d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    flex: 0 1 33%;
+}
+@media only screen and (max-width: 1000px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .grid {
+        display: none;
+    }
+}
+.highl {
+    order: -1;
+    flex: 0 1 100%;
+    border: solid orange;
+    box-shadow: 0 0 10px orange;
+}
+.date {
+    text-align: right;
+}
